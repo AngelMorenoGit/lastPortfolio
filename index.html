@@ -224,19 +224,17 @@
     <section id="contacto" class="contacto">
         <h3 class="titulo-seccion">Conctactanos ahora</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form action="https://formspree.io/f/xbjblqyr" method="POST">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
-                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" name="name" required>
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" name="email" required>
                 </div>
+                <div class="fila">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu mensaje..."
+                        class="input-full" required></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
             </form>
-            <div class="fila">
-                <input type="text" placeholder="Tema..." class="input-full">
-            </div>
-            <div class="fila">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
-            </div>
-            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
         </div>
     </section>
     <!-- SECCION FOOTER -->
