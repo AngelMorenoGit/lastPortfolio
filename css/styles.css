@@ -35,9 +35,9 @@ html {
     padding: 10px 20px;
 }
 
-#inicio .contenido header .contenido-header h1 {
+#inicio .contenido header .contenido-header {
     text-align: center;
-    color: #ff5080;
+    color: #fff;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -86,11 +86,12 @@ html {
 }
 
 #inicio .contenido .presentacion .bienvenida {
-    font-size: 16px;
+    font-size: 40px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
 
 #inicio .contenido .presentacion h2 {
     font-size: 55px;
@@ -100,31 +101,29 @@ html {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 50px;
-    color: #ff5080;
+    color: #fff;
 }
 
 #inicio .contenido .presentacion .descripcion {
     max-width: 700px;
     margin: 25px auto;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 
 }
 
-#inicio .contenido .presentacion a {
+#inicio .contenido .presentacion p {
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: black;
     margin: 25px;
     padding: 20px 25px;
-    border: 2px solid #fff;
     font-weight: bold;
-    text-transform: uppercase;
     transition: .5s;
 }
 
 #texto {
-    color: white;
+    color: black;
 }
 
 #inicio .contenido .presentacion a:hover {
@@ -164,7 +163,7 @@ html {
 }
 
 #sobremi .sobremi .titulo-seccion {
-    font-size: 22px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -184,7 +183,7 @@ html {
 }
 
 #sobremi .sobremi h3 {
-    font-size: 18px;
+    font-size: 40px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -192,7 +191,7 @@ html {
 }
 
 #sobremi .sobremi p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
@@ -222,7 +221,7 @@ html {
 }
 
 #servicios .titulo-seccion {
-    font-size: 22px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -255,6 +254,11 @@ html {
     margin-bottom: 25px;
 }
 
+#servicios .fila .servicio img {
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
 #servicios .fila .servicio .icono {
     display: inline-block;
     width: 60px;
@@ -293,7 +297,7 @@ html {
 
 .portfolio .titulo-seccion {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -353,7 +357,7 @@ html {
 #contacto .titulo-seccion {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 40px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;

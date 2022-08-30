@@ -22,3 +22,8 @@ function seleccionar(link){
     var x = document.getElementById("nav");
     x.className = "";
 }
+
+function darkmode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
