@@ -450,6 +450,62 @@ footer .arriba{
     font-size: 18px;
 }
 
+/* Seccion personal*/
+
+#header .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#header .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#header .contenido header .contenido-header {
+    text-align: center;
+    color: #fff;
+}
+
+#header .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#header .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#header .contenido header .contenido-header nav ul a:hover {
+    color: #ff5080;
+}
+
+#header .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#header .contenido header .contenido-header .redes a:hover {
+    color: rgb(10, 136, 168);
+}
+
+
+
 /* SECCION RESPONSIVE */
 @media screen and (max-with:800px) {
     .redes{
